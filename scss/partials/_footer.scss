@@ -1,0 +1,32 @@
+footer{
+  background: $dark-gray;
+  padding: 5em 0;
+  text-align: center;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+nav{
+  @include container($max-width: 15em);
+  float: right;
+  i{
+    color: $white;
+    margin-left: 1em;
+    padding-top: .2em;
+    &:hover{
+      color: $light-gray;
+    }
+  }
+  //display: flex;
+  //justify-content: space-between;
+  //margin: 1.75em auto 1em;
+}
+
+.social-icon{
+  width: 100%;
+  height: 100%;
+
+}

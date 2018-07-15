@@ -1,0 +1,99 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    meta(http-equiv="X-UA-Compatible" content="ie=edge")
+    meta(name="referrer", content="origin")
+    title Taryn's Guitar Shop
+    link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous")
+    link(rel="stylesheet" href="scss/main.css")
+
+
+  body
+    .container-all
+      .welcome(id="welcome")
+        h1
+          | Welcome to
+          span Taryn's Guitar Workshop
+
+      section(class="intro")
+        .intro-left
+          img(src="img/amp.png")
+        .intro-middle
+          h2 Your Guitar needs a Tune Up
+          p Ugh paleo shaman, poutine squid bushwick post-ironic. Ugh paleo shaman, poutine squid bushwick post-ironic. Ugh paleo shaman, poutine squid bushwick post-ironic.
+        .intro-right
+          img(src="img/bass.png")
+
+      section(class="about-me", id="about")
+        img(class="about-img", src="img/taryn.png", alt="The Muse")
+        h1(class="about-title") Taryn's Guitar Workshop
+        h2(class="about-subtitle") Instrument Setups & Repairs
+        .about-text
+          p There are few things more satisfying than when you first play a guitar after a tech gets makes just the right adjustments to it.
+          p I pride myself on knowing exactly what will make a guitar play perfect, taking accurate measurements, and adjusting it to the clients preferences.
+
+      section(class="portfolio" id="portfolio")
+        .container
+          h1 My Work
+          .portfolio-items
+            figure(class="portfolio-item featured")
+              img(src="img/notbass.png")
+              figcaption
+                h2(class="portfolio-title") Project Title
+                p(class="portfolio-desc") What was done on this guitar?
+                a(href="#" class="portfolio-link") More Info
+
+            figure(class="portfolio-item")
+              img(src="img/suave.png")
+              figcaption
+                h2(class="portfolio-title") Project Title
+                p(class="portfolio-desc") What was done on this guitar?
+                a(href="#" class="portfolio-link") More Info
+
+            figure(class="portfolio-item")
+              img(src="img/bw_acoustic.png")
+              figcaption
+                h2(class="portfolio-title") Project Title
+                p(class="portfolio-desc") What was done on this guitar?
+                a(href="#" class="portfolio-link") More Info
+
+            figure(class="portfolio-item")
+              img(src="img/live.png")
+              figcaption
+                h2(class="portfolio-title") Project Title
+                p(class="portfolio-desc") What was done on this guitar?
+                a(href="#" class="portfolio-link") More Info
+
+            figure(class="portfolio-item")
+              img(src="img/fretboard.png")
+              figcaption
+                h2(class="portfolio-title") Project Title
+                p(class="portfolio-desc") What was done on this guitar?
+                a(href="#" class="portfolio-link") More Info
+
+
+      section(class="contact", id="contact")
+        h1 Contact Me
+        form(action="https://formspree.io/julianreyes90@gmail.com", method="POST")
+
+          label(class="name") Name:
+            input(type="text", id="name", name="name")
+
+          label(class="email") Email:
+            input(type="email", id="email", name="_replyto")
+
+          label(class="message", class="message") Message:
+            textarea(name="message", id="message",)
+
+          input(class="button form-button", type="submit", value="SEND")
+
+
+      footer
+        p Follow me on Social Media
+        nav(class=".social-icons")
+          a(href="#")
+            i(class="fab fa-instagram" target="_blank")
+          a(href="#")
+            i(class="fab fa-facebook" target="_blank")
