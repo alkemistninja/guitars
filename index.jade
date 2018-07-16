@@ -76,13 +76,13 @@ html
 
       section(class="contact", id="contact")
         h1 Contact Me
-        form(action="https://formspree.io/julianreyes90@gmail.com", method="POST")
+        form(action="contact.php", method="POST")
 
           label(class="name") Name:
             input(type="text", id="name", name="name")
 
           label(class="email") Email:
-            input(type="email", id="email", name="_replyto")
+            input(type="email", id="email", name="email")
 
           label(class="message", class="message") Message:
             textarea(name="message", id="message",)
@@ -94,6 +94,6 @@ html
         p Follow me on Social Media
         nav(class=".social-icons")
           a(href="#")
-            i(class="fab fa-instagram" target="_blank")
+            i(class="fab fa-instagram fa-3x" target="_blank")
           a(href="#")
-            i(class="fab fa-facebook" target="_blank")
+            i(class="fab fa-facebook fa-3x" target="_blank")

@@ -603,7 +603,7 @@ footer {
   color: #FFFFFF;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end; }
+  justify-content: flex-en; }
 
 nav {
   width: 90%;
@@ -612,8 +612,7 @@ nav {
   float: right; }
   nav i {
     color: #FFFFFF;
-    margin-left: 1em;
-    padding-top: .2em; }
+    margin: .5em; }
     nav i:hover {
       color: #DADFF7; }
 
